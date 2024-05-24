@@ -11,7 +11,8 @@ server.use(middlewares);
 server.use(
  // Add custom route here if needed
  jsonServer.rewriter({
-  "/*": "/$1",
+    '/api/*': '/$1',
+    '/product/:resource/:id/show': '/:resource/:id'
  })
 );
 server.use(router);
