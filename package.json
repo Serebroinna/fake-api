@@ -1,16 +1,16 @@
 {
+  "dependencies": {
+    "json-server": "^0.17.0"
+  },
   "name": "fake-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "api/server.js",
+  "main": "server.js",
+  "devDependencies": {},
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node api/server.js"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Fábio Cordeiro",
   "license": "ISC",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "json-server": "^1.0.0-beta.0"
-  }
+  "description": ""
 }
