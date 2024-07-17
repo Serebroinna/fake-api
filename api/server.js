@@ -1,7 +1,13 @@
+import 
 // JSON Server module
 const jsonServer = require("json-server");
 const server = jsonServer.create();
+const cors = require('cors');
 const router = jsonServer.router("db.json");
+
+app.use(cors({
+  origin: 'http://localhost:5173/'
+}));
 
 // Make sure to use the default middleware
 const middlewares = jsonServer.defaults();
