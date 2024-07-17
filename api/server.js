@@ -4,9 +4,7 @@ const server = jsonServer.create();
 const cors = require('cors');
 const router = jsonServer.router("db.json");
 
-app.use(cors({
-  origin: 'http://localhost:5173/'
-}));
+app.use(cors());
 
 // Make sure to use the default middleware
 const middlewares = jsonServer.defaults();
