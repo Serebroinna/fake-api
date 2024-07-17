@@ -6,7 +6,7 @@ const router = jsonServer.router("db.json");
 
 
 server.use(cors({
-   origin: "http://localhost:5173/"
+   origin: "http://localhost:5173"
 }));
 // Make sure to use the default middleware
 const middlewares = jsonServer.defaults();
