@@ -1,40 +1,76 @@
 {
-  "productos": [
+  "instrumentos": [
     {
       "id": "1",
-      "nombre": "Funda Iphone 11",
-      "precio": "250",
-      "imagen": "img/iphone_11.png"
+      "instrumento": "Guitarra",
+      "color": "#E60E0E"
     },
     {
       "id": "2",
-      "nombre": "Cargador 20V Apple",
-      "precio": "500",
-      "imagen": "img/cargador-20v.png"
+      "instrumento": "Bajo",
+      "color": "#FF8B00"
     },
     {
       "id": "3",
-      "nombre": "Cable USB-Lighting",
-      "precio": "450",
-      "imagen": "img/usb-light.png"
+      "instrumento": "Bateria",
+      "color": "#57C278"
     },
     {
       "id": "4",
-      "nombre": "Cable USC-C",
-      "precio": "450",
-      "imagen": "img/usb-c.png"
+      "instrumento": "Teclado",
+      "color": "#DB6EBF"
+    }
+  ],
+  "generos": [
+    {
+      "id": "1",
+      "genero": "Rock"
+    },
+    {
+      "id": "2",
+      "genero": "Reggae"
+    },
+    {
+      "id": "3",
+      "genero": "Ska"
+    },
+    {
+      "id": "4",
+      "genero": "Indie"
     },
     {
       "id": "5",
-      "nombre": "Funda Silicon 11",
-      "precio": "500",
-      "imagen": "img/funda-silicon-11.png"
+      "genero": "Post Punk"
+    }
+  ],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/embed/ODzhCZ-5f3A?si=lAmdg",
+      "titulo": "Prueba ",
+      "instrumento": "Guitarra",
+      "genero": "Reggae",
+      "id": "51735011-49d8-4cbe-957a-15460742d34b"
     },
     {
-      "id": "6",
-      "nombre": "Funda Iphone 15",
-      "precio": "500",
-      "imagen": "img/funda-iphone-15.png"
+      "url": "https://www.youtube.com/embed/-oIKgXtEE1I?si=98olL",
+      "titulo": "Calaveras y Diablo",
+      "instrumento": "Bateria",
+      "genero": "Indie",
+      "id": "f4fce797-9976-4da5-b59d-b8cb87b4c14b"
+    },
+    {
+      "url": "https://www.youtube.com/embed/rMQLggp7EZw?si=q2MSg",
+      "titulo": "Calaveras y Diablo",
+      "instrumento": "Bajo",
+      "genero": "Rock",
+      "id": "0ac87ce2-3176-4f90-80d1-3aed7250a9a9"
+    },
+    {
+      "url": "https://www.youtube.com/embed/3_dwKqCsbis?si=mIHiJBFIhsX_1Q6z",
+      "titulo": "Aplicaciones moviles 2024",
+      "instrumento": "Teclado",
+      "genero": "Ska",
+      "id": "96865999-186d-494a-b454-063ecc45cf4e"
     }
   ]
 }
