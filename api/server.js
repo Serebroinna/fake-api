@@ -1,13 +1,13 @@
 // JSON Server module
 const jsonServer = require("json-server");
 const server = jsonServer.create();
-const cors = require('cors')
+/* const cors = require('cors') */
 const router = jsonServer.router("db.json");
 
 
-server.use(cors({
+/* server.use(cors({
    origin: "https://tutorials-inky.vercel.app"
-}));
+})); */
 // Make sure to use the default middleware
 const middlewares = jsonServer.defaults();
 
