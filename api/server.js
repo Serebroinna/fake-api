@@ -6,7 +6,7 @@ const router = jsonServer.router("db.json");
 
 
 server.use(cors({
-   origin: "https://tutorials-inky.vercel.app/"
+   origin: "https://tutorials-inky.vercel.app"
 }));
 // Make sure to use the default middleware
 const middlewares = jsonServer.defaults();
